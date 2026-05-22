@@ -9,5 +9,6 @@ int main()
     *(p+2)=33;
     printf("%d %d %d\n",*p,*(p+1),*(p+2));
     return 0;
+    free(p);
 
 }
